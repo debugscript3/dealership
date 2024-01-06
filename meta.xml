@@ -1,0 +1,16 @@
+<meta>
+    <oop>true</oop>
+    <script src="CBuy.lua" type="client" />
+    <script src="CSell.lua" type="client" />
+    <script src="CChangeNumber.lua" type="client" />
+    <script src="dxEdit.lua" type="client" />
+
+    <script src="ShFunc.lua" type="shared" />
+    <script src="server.lua" type="server" />
+
+    <file src="fonts/myriadpro.ttf"/>
+	<file src="fonts/opensans.ttf"/>
+	<file src="fonts/opensans-light.ttf"/>
+	<file src="fonts/opensans-semibold.ttf"/>
+	<file src="fonts/roboto.ttf"/>
+</meta>
