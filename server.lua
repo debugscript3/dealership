@@ -1,4 +1,4 @@
-local db = dbConnect( "mysql", "dbname=brp_srv_1;host=127.0.0.1;charset=utf8", "blazerp", "vdiYTCpHNury9411" )
+local db = dbConnect( "mysql", "dbname=db_name;host=127.0.0.1;charset=utf8", "username", "password" )
 
 dbExec(db, [[CREATE TABLE IF NOT EXISTS ??
     ( ?? INT AUTO_INCREMENT PRIMARY KEY, ?? VARCHAR(32), ?? INT(6), ?? VARCHAR(9) );]],
